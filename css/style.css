@@ -1,0 +1,14 @@
+.general-cont {
+    background-color: blanchedalmond;
+}
+
+#buzzList div {
+    width: calc(100% / 10);
+    border: solid 1px black;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
