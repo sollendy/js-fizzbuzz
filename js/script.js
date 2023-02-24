@@ -12,15 +12,15 @@ for (let i = 1; i <= 100; i++) {
     altroDiv.innerHTML = (i);
 
     if (i % 3 == 0) {
-        altroDiv.innerHTML = "Fizz " + (i);
+        altroDiv.innerHTML = "Fizz";
 
     }
 
     if (i % 5 == 0) {
-        altroDiv.innerHTML = "Buzz " + (i);
+        altroDiv.innerHTML = "Buzz";
     }
     
     if ((i % 3 == 0) && (i % 5 == 0)) {
-        altroDiv.innerHTML = "FizzBuzz " + (i);
+        altroDiv.innerHTML = "FizzBuzz";
     }
 }
