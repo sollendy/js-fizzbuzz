@@ -11,4 +11,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgb(19, 137, 178);
+    font-weight: bold;
 }
