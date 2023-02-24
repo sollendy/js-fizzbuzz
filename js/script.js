@@ -9,5 +9,17 @@ for (let i = 1; i <= 100; i++) {
     buzzinnerEl.append(altroDiv);
 
     //dare un valore all'interno di altroDiv
-    altroDiv.innerHTML = "fizz " + (i);
+    altroDiv.innerHTML = (i);
+
+    if (i % 3 == 0) {
+        altroDiv.innerHTML = "Fizz " + (i);
+    }
+
+    if (i % 5 == 0) {
+        altroDiv.innerHTML = "Buzz " + (i);
+    }
+
+    if ((i % 3 == 0) && (i % 5 == 0)) {
+        altroDiv.innerHTML = "FizzBuzz " + (i);
+    }
 }
