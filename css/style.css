@@ -14,3 +14,15 @@
     background-color: rgb(19, 137, 178);
     font-weight: bold;
 }
+
+#buzzList .verdi {
+    background-color: green;
+}
+
+#buzzList .gialli {
+    background-color: yellow;
+}
+
+#buzzList .celesteNostalgia {
+    background-color: palevioletred;
+}

@@ -13,14 +13,17 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 3 == 0) {
         altroDiv.innerHTML = "Fizz";
-
+        altroDiv.classList.add("verdi");
     }
 
     if (i % 5 == 0) {
         altroDiv.innerHTML = "Buzz";
+        altroDiv.classList.add("gialli");
     }
     
     if ((i % 3 == 0) && (i % 5 == 0)) {
         altroDiv.innerHTML = "FizzBuzz";
+        altroDiv.classList.add("celesteNostalgia");
+
     }
 }
